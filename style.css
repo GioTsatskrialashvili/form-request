@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+
+.bigcont {
+  width: 40%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.bigcont form p {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: large;
+}
+
+.bigcont form input {
+  height: 30px;
+  border: none;
+  border: solid 1px #ccc;
+  border-radius: 7px;
+}
+
+.bigcont form h1 {
+  padding: 20px 0 20 20;
+}
+
+.bigcont form .row1 {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.bigcont form .row1 input {
+  width: 190%;
+}
+
+.bigcont form .row1 button {
+  background-color: #0984e3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.bigcont form .row2 {
+  margin-left: 10%;
+  display: inline-block;
+  position: fixed;
+}
+
+.bigcont form .row2 input {
+  width: 145%;
+}
+
+.bigcont form .row2 textarea {
+  height: 80%;
+  width: 145%;
+  resize: none;
+  border: none;
+  border: solid 1px #ccc;
+  border-radius: 7px;
+}
+
+.sent {
+  width: 40%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  margin-top: 10%;
+  height: 200px;
+}
+
+.sent h1 {
+  padding: 50 30;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+#error {
+  padding-left: 20px;
+  padding-right: 115px;
+  padding-bottom: 20px;
+  color: #eb3b5a;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
