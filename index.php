@@ -1,7 +1,4 @@
 
-
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,7 +39,7 @@
             </div>
         </div>
         </div>
-        <p id="error">გაგზავნის დროს დაფიქსირდა შეცდომა გთხოვთ სცადოთ თავიდან</p>
+        <p id="error" style="<?= isset($_GET['status'])&&$_GET['status']==0 ? "display:block" : ''?>">გაგზავნის დროს დაფიქსირდა შეცდომა გთხოვთ სცადოთ თავიდან</p>
     </form>
     
     </div>
